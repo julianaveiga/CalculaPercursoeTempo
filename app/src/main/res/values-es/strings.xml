@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcula Distancia</string>
+    <string name="ativagps">Activar GPS</string>
+    <string name="desativagps">Desactivar GPS</string>
+    <string name="distancia">Distancia recorrida</string>
+    <string name="iniciarpercurso">Inicio del curso</string>
+    <string name="pedirPermissao">Pedir Permiso GPS</string>
+    <string name="tempo">Tiempo</string>
+    <string name="terminarpercurso">Terminar Recorrido</string>
+    <string name="teste">teste</string>
+</resources>

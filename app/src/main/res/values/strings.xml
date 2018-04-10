@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calcula Distância</string>
+    <string name="pedirPermissao">Pedir Permissao GPS</string>
+    <string name="ativagps">Ativar GPS</string>
+    <string name="desativagps">Desativar GPS</string>
+    <string name="iniciarpercurso">Iniciar Percurso</string>
+    <string name="terminarpercurso">Terminar Percurso</string>
+    <string name="distancia">Distância Percorrida</string>
+    <string name="tempo">Tempo</string>
+    <string name="teste">teste</string>
+</resources>

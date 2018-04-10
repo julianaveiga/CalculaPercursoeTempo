@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Distanz berechnen</string>
+    <string name="ativagps">GPS aktivieren</string>
+    <string name="desativagps">GPS deaktivieren</string>
+    <string name="distancia">Zurückgelegte Strecke</string>
+    <string name="iniciarpercurso">Route starten</string>
+    <string name="pedirPermissao">GPS-Genehmigung anfordern</string>
+    <string name="tempo">Zeit</string>
+    <string name="terminarpercurso">Kurs beenden</string>
+    <string name="teste">teste</string>
+</resources>

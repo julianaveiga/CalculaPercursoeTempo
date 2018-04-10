@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Distance Calculator</string>
+    <string name="ativagps">Enable GPS</string>
+    <string name="desativagps">Disable GPS</string>
+    <string name="distancia">Travelled distance</string>
+    <string name="iniciarpercurso">Start Route</string>
+    <string name="pedirPermissao">Request GPS Permission</string>
+    <string name="tempo">Time</string>
+    <string name="terminarpercurso">Finish Course</string>
+    <string name="teste">teste</string>
+</resources>

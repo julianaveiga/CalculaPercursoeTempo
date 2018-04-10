@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juliana.calculapercursoetempo.MainActivity">
+
+    <Button
+        android:id="@+id/buttonPermissionGps"
+        android:layout_width="184dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|center"
+        android:layout_row="4"
+        android:layout_toEndOf="@+id/buttonAtivarGPS"
+        android:onClick="buttonPermissionOnClick"
+        android:text="@string/pedirPermissao" />
+
+    <TextView
+        android:id="@+id/textViewDistanciaPercorrida"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:textSize="@dimen/txt_size"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="@string/distancia" />
+
+    <TextView
+        android:id="@+id/textViewTempoPassado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txt_size"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="@string/tempo" />
+
+    <Button
+        android:id="@+id/buttonTerminarPercurso"
+        android:layout_width="200dp"
+        android:layout_height="86dp"
+        android:layout_column="1"
+        android:layout_row="6"
+        android:text="@string/terminarpercurso" />
+
+    <Button
+        android:id="@+id/buttonIniciarPercurso"
+        android:layout_width="200dp"
+        android:layout_height="84dp"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:text="@string/iniciarpercurso" />
+
+    <Button
+        android:id="@+id/buttonDesativar"
+        android:layout_width="200dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/buttonPermissionGps"
+        android:layout_column="1"
+        android:layout_marginEnd="12dp"
+        android:layout_row="5"
+        android:text="@string/desativagps" />
+
+    <Button
+        android:id="@+id/buttonAtivarGPS"
+        android:layout_width="200dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonPermissionGps"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:layout_row="5"
+        android:text="@string/ativagps" />
+
+    <TextView
+        android:id="@+id/textViewDistancia"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text=""
+        android:textSize="@dimen/txt_size" />
+
+    <TextView
+        android:id="@+id/textViewTempo"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:text=""
+        android:textSize="@dimen/txt_size" />
+
+</GridLayout>
